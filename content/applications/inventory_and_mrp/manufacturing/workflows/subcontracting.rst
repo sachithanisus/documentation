@@ -103,3 +103,10 @@ equation:
 It is important to note that not every subcontracted product valuation will include all of these
 variables. For example, if the product is not dropshipped to the end customer, then there is no need
 to factor in the cost of dropshipping.
+
+.. toctree::
+
+   subcontracting/subcontracting_basic
+   subcontracting/basic_subcontracting_lead_times
+   subcontracting/subcontracting_resupply
+   subcontracting/subcontracting_dropship
