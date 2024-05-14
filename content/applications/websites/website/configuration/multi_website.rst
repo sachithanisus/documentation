@@ -9,14 +9,17 @@ help avoid confusion and make it easier to tailor your digital outreach strategi
 target audience.
 
 Each website can be designed and configured independently with its own :doc:`domain name
-<domain_names>`, theme, pages,
-menus, :doc:`languages <translate>`, :doc:`products <../../ecommerce/managing_products/products>`,
-assigned sales team, etc. They can also :ref:`share content and pages
-<multi-website/website_content>`.
+<domain_names>`, :doc:`theme <../web_design/themes>`, :doc:`pages <../pages>`, :doc:`menus
+<../pages/menus>`, :doc:`languages <translate>`, :doc:`products
+<../../ecommerce/managing_products/products>`, assigned sales team, etc. They can also
+:ref:`share content and pages <multi-website/website_content>`.
 
 .. tip::
    Duplicate content (i.e., pages and content shared between multiple websites) can have a negative
    impact on :doc:`../pages/seo`.
+
+.. seealso::
+   :doc:`Websites <../..>`
 
 Website creation
 ================
@@ -52,7 +55,7 @@ top right corner and select the website you want to switch to.
    :alt: Website selector
 
 .. note::
-   When you switch websites, you are redirected to the other website, to the same page (URL) as the
+   When you switch websites, you are :ref:`redirected <website/URL-redirection>` to the other website, to the same page (URL) as the
    current one. If the page you are currently viewing does not exist on the other website, you are
    redirected to a 404 error page. Once redirected, click :guilabel:`Create page` to create the
    page.
