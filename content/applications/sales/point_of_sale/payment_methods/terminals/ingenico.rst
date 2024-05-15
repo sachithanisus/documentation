@@ -6,8 +6,8 @@ Connecting a payment terminal allows you to offer a fluid payment flow to your c
 the work of your cashiers.
 
 .. important::
-   - Worldline payment terminals require an :doc:`IoT Box </applications/general/iot>`.
-   - Worldline is currently only available in Belgium, the Netherlands and Luxembourg.
+   - Ingenico payment terminals require an :doc:`IoT Box </applications/general/iot>`.
+   - Ingenico is currently only available in Belgium, the Netherlands and Luxembourg.
    - Odoo works with the Ingenico Lane/, Desk/, and Move/ payment terminals as they support the TLV
      communication protocol through TCP/IP.
 
@@ -22,15 +22,17 @@ requires an IoT Box. For more information on how to connect an IoT Box
 to your database, please refer to the :doc:`IoT documentation
 </applications/general/iot/config/connect>`.
 
-Configure the Lane/5000 for Ingenico BENELUX
---------------------------------------------
+Configure the Lane/Desk/Move 5000 terminals for Ingenico BENELUX
+----------------------------------------------------------------
 
-Click on the F button of the terminal, then go in the
-:menuselection:`PoS Menu --> Settings` and enter the settings password.
+Press the function button (`F` on Lane/5000, `⦿` on Desk/5000 and Move/5000), then go to
+:menuselection:`Kassa menu --> Settings Menu` and enter the settings password.
 
-Now, click on connection change and TCP/IP. Type the IP of your *IoT
-Box* (you can find it on the form view of your IoT Box). Then, enter
-9000 as port. The terminal will restart. Once it is done, go on your
+Now, select `Change Connection` and press `OK` on the next screen.
+Select `TCP/IP`, then `IP-address` and on the next screen enter the IP address of your *IoT
+Box* (you can find it on the form view of your IoT Box).
+Then, enter 9000 as port number and press `OK` on the next screen.
+The terminal will restart. Once it is done, go to your
 *IoT Box* form in Odoo and verify that the terminal has been found.
 
 .. image:: ingenico/payment_terminal_02.png
